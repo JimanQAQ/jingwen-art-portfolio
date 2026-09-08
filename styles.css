@@ -1,0 +1,10 @@
+body { margin: 32px auto; padding: 0 20px; max-width: 1100px; color: #222; background: white; font: 17px/1.5 Georgia, serif; }
+a { color: #174d89; }
+h1 { margin-bottom: 8px; } h2 { margin-top: 36px; }
+.gallery { display: flex; flex-wrap: wrap; gap: 24px; align-items: flex-end; }
+.gallery a { width: 320px; max-width: 100%; }
+.gallery.stickers a { width: 180px; }
+.gallery img { display: block; width: 100%; height: auto; }
+.artwork { width: auto; height: auto; max-width: min(100%, 80vw); max-height: 75vh; }
+.artwork.sticker { max-width: min(100%, 30vw); max-height: 40vh; }
+footer { margin-top: 48px; font-size: 14px; }
