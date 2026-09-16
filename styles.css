@@ -8,3 +8,8 @@ h1 { margin-bottom: 8px; } h2 { margin-top: 36px; }
 .artwork { width: auto; height: auto; max-width: min(100%, 80vw); max-height: 75vh; }
 .artwork.sticker { max-width: min(100%, 30vw); max-height: 40vh; }
 footer { margin-top: 48px; font-size: 14px; }
+
+.recent-gallery { display: flex; flex-wrap: wrap; gap: 24px; align-items: flex-start; }
+.recent-gallery figure { width: 320px; max-width: 100%; margin: 0; }
+.recent-gallery img { display: block; width: 100%; height: auto; }
+.recent-gallery figcaption { margin-top: 8px; }
